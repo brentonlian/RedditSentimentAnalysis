@@ -133,20 +133,20 @@ import matplotlib.pyplot as plt
 text = ' '.join([twts for twts in unc_df['Title']])
 
 # Generate word cloud
-#wordcloud = WordCloud(
-#    width=1000,
-#    height=600,
-#    max_words=100,
-#    stopwords=STOPWORDS,
-#    background_color="black",
-#    collocations=False  # Avoid displaying frequently co-occurring words
-#).generate(text)
+wordcloud = WordCloud(
+    width=1000,
+    height=600,
+    max_words=100,
+    stopwords=STOPWORDS,
+    background_color="black",
+    collocations=False  # Avoid displaying frequently co-occurring words
+).generate(text)
 
 # Display the generated image:
-#plt.figure(figsize=(20, 10), facecolor='k')
-#plt.imshow(wordcloud, interpolation='bilinear')
-#plt.axis("off")
-#plt.show()
+plt.figure(figsize=(20, 10), facecolor='k')
+plt.imshow(wordcloud, interpolation='bilinear')
+plt.axis("off")
+plt.show()
 
 #Print positive title
 print("Most positive posts according to textblob")
