@@ -1,0 +1,1 @@
+Project mainly using the Reddit API, WordCloud, TextBlob, and MatPlotLib to do sentiment analysis on a specific subreddit. Credit to Temidayo Omoniyi's "Reddit Sentiment Analysis" https://medium.com/@kiddojazz/reddit-sentiment-analysis-f8a1a790124a
